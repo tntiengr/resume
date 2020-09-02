@@ -2,15 +2,13 @@
   "name": "reacttest",
   "version": "1.0.0",
   "description": "",
-  "main": "javarip.js",
-  "dependencies": {
-    "browserify": "^16.5.2",
-    "uniq": "^1.0.1"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
